@@ -1,0 +1,15 @@
+{
+    "short_name": "AskU",
+    "name": "Ask you",
+    "icons": [
+      {
+        "src": "icon.png",
+        "sizes": "512x512 256x256 128x128 64x64 32x32 24x24 16x16",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/posts",
+    "display": "standalone",
+    "theme_color": "#2E2828",
+    "background_color": "#2E2828"
+}

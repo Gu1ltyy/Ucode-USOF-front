@@ -1,0 +1,248 @@
+.post-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEF4F4;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 1%;
+    width: 40%;
+    padding-bottom: 40px;
+}
+
+.post-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.post-page-title {
+    text-align: left;
+    width: 100%;
+}
+
+.post-page-info {
+    margin-top: 5px;
+}
+
+.post-page-owner, .post-page-date, .post-page-category, .post-page-edited {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+    text-align: right;
+    width: 100%;
+}
+
+.post-page-owner-link, .post-page-title-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2E2828;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+.post-page-owner-link:hover, .post-page-title-link:hover {
+    color: black;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #F65151;
+}
+
+.post-page-title-link {
+    font-size: 20px;
+}
+
+.post-page-category-span {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #F65151;
+    color: #fff;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    transition: 0.4s;
+}
+
+.post-page-category-span:hover {
+    color: black;
+}
+
+.post-page-body-div {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.post-page-buttons {
+    width: 80%;
+    display: flex;
+    justify-content: center; 
+}
+
+.post-page-rating-div {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 40px;
+}
+
+.like-button, .dislike-button, .delete-button, .edit-button, .cancel-button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.like-button-active, .dislike-button-active {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.delete-button {
+    background-color: #F65151;
+    margin-right: 25%;
+}
+
+.edit-button {
+    background-color: #3E8ACC;
+}
+
+.cancel-button {
+    background-color: #F7934C;
+}
+
+.edit-button:hover, .edit-link:hover {
+    background-color: #1f5c92;
+}
+
+.cancel-button:hover {
+    filter: brightness(110%) saturate(120%);
+}
+
+.like-button-active {
+    background-color: #81B64C;
+}
+
+.dislike-button-active {
+    background-color: #F65151;
+}
+
+.like-button:active, .dislike-button:active, .like-button-active:active, .dislike-button-active:active, .delete-button:active, .edit-button:active, .cancel-button:active {
+    transform: scale(0.95);
+}
+
+.like-button:hover, .like-button-active:hover {
+    background-color: #95d358;
+}
+
+.dislike-button:hover, .dislike-button-active:hover, .delete-button:hover {
+    background-color: red;
+}
+
+.edit-link {
+    text-decoration: none;
+    color: black;
+}
+
+.rating {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.comments-container {
+    margin-top: 30px;
+}
+
+.comments-div {
+    width: 100%;
+    position: relative;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #2E2828 #FEF4F4;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: none;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #2E2828;
+    border-radius: 20px;
+    border: 1px solid #503A3A;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #F65151;
+}
+
+.post-page-all-comments {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #888;
+}
+
+.last-phrase {
+    text-align: center;
+    margin: auto;
+}
+
+.post {
+    margin-top: 50px;
+    position: relative;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.update-buttons {
+    width: 50%;
+    border-right: 1px solid #888;
+    margin-right: 20px;
+}
+
+.users-page-post {
+    width: 50%;
+}
+
+.posts-page-post {
+    width: 57%;
+}
+
+.modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.modal-content {
+    background: #FEF4F4;
+    padding: 20px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+  

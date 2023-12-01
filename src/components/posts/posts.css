@@ -1,0 +1,89 @@
+.post-filters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #2E2828;
+    padding: 20px;
+    color: #FEF4F4;
+    border-radius: 10px;
+    width: 23%;
+}
+
+.sort, .date-filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sort {
+    margin-bottom: 20px;
+}
+
+.sort select, .date-filter input {
+    margin-right: 10px;
+}
+
+.sort-button, .date-filter-button, .clear-button {
+    background-color: #FEF4F4;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #2E2828;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.clear-button {
+    margin-top: 20px;
+}
+
+.sort-button:hover, .date-filter-button:hover, .clear-button:hover {
+    background-color: #F65151;
+}
+
+.sort-button:active, .date-filter-button:active, .create-post-link:active {
+    transform: scale(0.95);
+}
+
+.create-post {
+    color: #FEF4F4;
+}
+
+.create-post-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FEF4F4;
+    text-decoration: underline;
+}
+
+.create-post-link:hover {
+    color: #F65151;
+}
+
+select {
+    background-color: #503A3A;
+    color: #FEF4F4;
+    font-size: 16px;
+    padding: 5px;
+    width: 35%;
+    margin-left: -31%;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="date"] {
+    background-color: #503A3A;
+    color: #FEF4F4;
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+}

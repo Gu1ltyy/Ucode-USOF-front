@@ -1,0 +1,141 @@
+.create-comment {
+    width: 97%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.create-comment:hover {
+    border: 2px solid #F65151;
+}
+
+.comment-button {
+    float: right;
+    padding: 10px 20px;
+    background-color: #81B64C;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.comment-button:hover {
+    background-color: #95d358;
+}
+
+.comment-buttonn:active {
+    transform: scale(0.95);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: none;
+    border-radius: 20px;
+    border: none;
+}
+
+.comment-content-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.comment-owner-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2E2828;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    transition: 0.4s;
+}
+
+.comment-owner-link:hover {
+    color: black;
+}
+
+.comment-content {
+    text-align: justify;
+}
+
+.comments-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.date {
+    font-size: 14px;
+    color: #888;
+    width: 50%;
+}
+
+.like-button-comment, .dislike-button-comment {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.like-button-comment-active, .dislike-button-comment-active {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.like-button-comment-active {
+    background-color: #81B64C;
+}
+
+.dislike-button-comment-active {
+    background-color: #F65151;
+}
+
+.like-button-comment:active, .dislike-button-comment:active, .like-button-comment-active:active, .dislike-button-comment-active:active {
+    transform: scale(0.95);
+}
+
+.like-button-comment:hover, .like-button-comment-active:hover {
+    background-color: #95d358;
+}
+
+.dislike-button-comment:hover, .dislike-button-comment-active:hover {
+    background-color: red;
+}
+
+.actions-buttons-comment {
+    border-left: 1px solid #888;
+    width: 15%;
+}
+
+.comment-delete-button {
+    float: right;
+    margin-right: 0px;
+}
+
+.comment-global {
+    position: relative;
+}
+
+.comment-modal {
+    margin-top: 0px;
+}
+
+.comment-modal-content {
+    padding: 5px 5px;
+}
+
+.cancel-comment {
+    float: right;
+}
